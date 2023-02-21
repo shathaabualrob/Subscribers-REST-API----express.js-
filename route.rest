@@ -1,0 +1,15 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/63f40e0f7beca7705a9a153a
+
+###
+
+POST http://localhost:3000/subscribers/
+Content-Type: application/json
+
+{
+    "name":"Shatha Abu AlRob",
+    "subscriberToChannel": "hello world"
+}
